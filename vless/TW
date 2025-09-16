@@ -1,1 +1,347 @@
-dmxlc3M6Ly83YjkyOWI4MC1hNmI5LTQ1YWMtODRhMC0zZWIwNTk5YTAyMjdAbnpyLmJpei5pZDo0NDM/ZW5jcnlwdGlvbj1ub25lJnNlY3VyaXR5PXRscyZ0eXBlPXdzJmhvc3Q9bnpyLmJpei5pZCZwYXRoPSUyRm56ciUyRjE1MS4yNDIuMTUzLjktNDQzJnNuaT1uenIuYml6LmlkI1sxXSBUVyAtIFRhaXdhbiBbVkxFU1MtVExTXQp2bGVzczovLzFkODJlYWQxLTk2OTktNDQ2ZS1hMzlhLTk2MTNhZGM3ZTVmMEBuenIuYml6LmlkOjQ0Mz9lbmNyeXB0aW9uPW5vbmUmc2VjdXJpdHk9dGxzJnR5cGU9d3MmaG9zdD1uenIuYml6LmlkJnBhdGg9JTJGbnpyJTJGMTgyLjE1NS43OS42OS0xMTI1MCZzbmk9bnpyLmJpei5pZCNbMl0gVFcgLSBUYWl3YW4gW1ZMRVNTLVRMU10Kdmxlc3M6Ly9hOTE4MzIxZi03YjU5LTQ4NTMtOTVkNi01ZTc4ZDU1NWMxYTZAbnpyLmJpei5pZDo0NDM/ZW5jcnlwdGlvbj1ub25lJnNlY3VyaXR5PXRscyZ0eXBlPXdzJmhvc3Q9bnpyLmJpei5pZCZwYXRoPSUyRm56ciUyRjQ1LjIwNy4xNTguMjktMjA1MyZzbmk9bnpyLmJpei5pZCNbM10gVFcgLSBBa2lsZSBMVEQgW1ZMRVNTLVRMU10Kdmxlc3M6Ly9iYjY0OWU0OC0zNzU1LTQ5YWYtYWY3OC1jY2U3ZmVhYmY2MTJAbnpyLmJpei5pZDo0NDM/ZW5jcnlwdGlvbj1ub25lJnNlY3VyaXR5PXRscyZ0eXBlPXdzJmhvc3Q9bnpyLmJpei5pZCZwYXRoPSUyRm56ciUyRjE0MS4xMS44Ni45NC0xODMzMyZzbmk9bnpyLmJpei5pZCNbNF0gVFcgLSBBS0lMRSBMVEQgW1ZMRVNTLVRMU10Kdmxlc3M6Ly8zN2MyZmI2OC0xMmZiLTRhNDctYTk2ZS0zNzBjOTJkMDFjZGNAbnpyLmJpei5pZDo0NDM/ZW5jcnlwdGlvbj1ub25lJnNlY3VyaXR5PXRscyZ0eXBlPXdzJmhvc3Q9bnpyLmJpei5pZCZwYXRoPSUyRm56ciUyRjExOC4xNjMuMzcuMzItODEmc25pPW56ci5iaXouaWQjWzVdIFRXIC0gQ2h1bmdod2EgVGVsZWNvbSBDby4gW1ZMRVNTLVRMU10Kdmxlc3M6Ly82MzVmMDU5MC04MjY4LTQ5MWMtYTk4OS1hYzI5NWE0ZTRhMzRAbnpyLmJpei5pZDo0NDM/ZW5jcnlwdGlvbj1ub25lJnNlY3VyaXR5PXRscyZ0eXBlPXdzJmhvc3Q9bnpyLmJpei5pZCZwYXRoPSUyRm56ciUyRjE2Ny4yNTMuMTUzLjI0Ny00NDMmc25pPW56ci5iaXouaWQjWzZdIFRXIC0gU1QgTmV0d29yayBMTEMgW1ZMRVNTLVRMU10Kdmxlc3M6Ly83Y2FjZWQ4MS02ZDczLTQ2ZmMtOGI0Yy1lOWE0ZDRkMWJlZTRAbnpyLmJpei5pZDo0NDM/ZW5jcnlwdGlvbj1ub25lJnNlY3VyaXR5PXRscyZ0eXBlPXdzJmhvc3Q9bnpyLmJpei5pZCZwYXRoPSUyRm56ciUyRjIxMy4yMTAuNC40OS00NDMmc25pPW56ci5iaXouaWQjWzddIFRXIC0gQnl0ZVZpcnQgTExDIFtWTEVTUy1UTFNdCnZsZXNzOi8vNGJhMjIxNDktZTEyZS00M2YyLTg5M2MtNDg0MDkzYjRmMmRmQG56ci5iaXouaWQ6NDQzP2VuY3J5cHRpb249bm9uZSZzZWN1cml0eT10bHMmdHlwZT13cyZob3N0PW56ci5iaXouaWQmcGF0aD0lMkZuenIlMkYxNDkuMTA0LjEyMC4yNTQtNDQzJnNuaT1uenIuYml6LmlkI1s4XSBUVyAtIEthb3B1IENsb3VkIEhLIExpbWl0ZWQgW1ZMRVNTLVRMU10Kdmxlc3M6Ly81YTgyMTY4ZS02ZDUxLTQ2NjQtYWFkNy1mNjM3ZWE4M2RjOWZAbnpyLmJpei5pZDo0NDM/ZW5jcnlwdGlvbj1ub25lJnNlY3VyaXR5PXRscyZ0eXBlPXdzJmhvc3Q9bnpyLmJpei5pZCZwYXRoPSUyRm56ciUyRjIyMC4xMzUuMjAyLjI1MC04MSZzbmk9bnpyLmJpei5pZCNbOV0gVFcgLSBDaHVuZ2h3YSBUZWxlY29tIENvLiBbVkxFU1MtVExTXQp2bGVzczovLzQyZGRjYjQzLTQxYzgtNDc2NC1iMTRiLTgyMDQ3MzFlODQ3ZUBuenIuYml6LmlkOjQ0Mz9lbmNyeXB0aW9uPW5vbmUmc2VjdXJpdHk9dGxzJnR5cGU9d3MmaG9zdD1uenIuYml6LmlkJnBhdGg9JTJGbnpyJTJGMTgyLjE1NS43OS42OS0xMjM2OSZzbmk9bnpyLmJpei5pZCNbMTBdIFRXIC0gVGFpd2FuIFtWTEVTUy1UTFNdCnZsZXNzOi8vZDFmZWJjZWEtM2MwYi00Yjc4LTgwMjYtNjU2N2I1OTgwZTY1QG56ci5iaXouaWQ6NDQzP2VuY3J5cHRpb249bm9uZSZzZWN1cml0eT10bHMmdHlwZT13cyZob3N0PW56ci5iaXouaWQmcGF0aD0lMkZuenIlMkYyMTMuMjEwLjUuNjEtODQ0MyZzbmk9bnpyLmJpei5pZCNbMTFdIFRXIC0gQnl0ZVZpcnQgTExDIFtWTEVTUy1UTFNdCnZsZXNzOi8vNTdmYWFiNWUtOWFkYS00N2M1LWFhYWQtOTJiMGFlZDc5NWE1QG56ci5iaXouaWQ6NDQzP2VuY3J5cHRpb249bm9uZSZzZWN1cml0eT10bHMmdHlwZT13cyZob3N0PW56ci5iaXouaWQmcGF0aD0lMkZuenIlMkYxMTQuMzQuMjAyLjIyNC0xMDAwNCZzbmk9bnpyLmJpei5pZCNbMTJdIFRXIC0gQ2h1bmdod2EgVGVsZWNvbSBDby4gW1ZMRVNTLVRMU10Kdmxlc3M6Ly81NTA4NmE1MS0zNDkwLTRjOGItOTJhNi1hN2Q0MDRiZjE0MmRAbnpyLmJpei5pZDo0NDM/ZW5jcnlwdGlvbj1ub25lJnNlY3VyaXR5PXRscyZ0eXBlPXdzJmhvc3Q9bnpyLmJpei5pZCZwYXRoPSUyRm56ciUyRjQ1LjIwNy4xNTguMjktODQ0MyZzbmk9bnpyLmJpei5pZCNbMTNdIFRXIC0gQWtpbGUgTFREIFtWTEVTUy1UTFNdCnZsZXNzOi8vYTM3ZTQyODUtZmRmOC00OWNhLWIwZDYtOGIzNTc0MWYzNjM1QG56ci5iaXouaWQ6NDQzP2VuY3J5cHRpb249bm9uZSZzZWN1cml0eT10bHMmdHlwZT13cyZob3N0PW56ci5iaXouaWQmcGF0aD0lMkZuenIlMkYxODguMjUzLjYuNTMtMjU4ODQmc25pPW56ci5iaXouaWQjWzE0XSBUVyAtIEFrYXJpIE5ldHdvcmtzIChUYWlwZWkpIFtWTEVTUy1UTFNdCnZsZXNzOi8vMjc4M2Y4OTgtNDEwZi00N2Y5LWJkNzMtNGViODQ2MjZmYTMzQG56ci5iaXouaWQ6NDQzP2VuY3J5cHRpb249bm9uZSZzZWN1cml0eT10bHMmdHlwZT13cyZob3N0PW56ci5iaXouaWQmcGF0aD0lMkZuenIlMkYxNDEuMTEuODYuOTQtNDU4ODgmc25pPW56ci5iaXouaWQjWzE1XSBUVyAtIEFLSUxFIExURCBbVkxFU1MtVExTXQp2bGVzczovL2JjYWY4OWFjLTdiZDItNGU0MS1hOTA4LTc3NGQyMTc3NGQ0MEBuenIuYml6LmlkOjQ0Mz9lbmNyeXB0aW9uPW5vbmUmc2VjdXJpdHk9dGxzJnR5cGU9d3MmaG9zdD1uenIuYml6LmlkJnBhdGg9JTJGbnpyJTJGNDUuMjA3LjE1OC4yOS0yMDgzJnNuaT1uenIuYml6LmlkI1sxNl0gVFcgLSBBa2lsZSBMVEQgW1ZMRVNTLVRMU10Kdmxlc3M6Ly8xOWZlMWFiNC1jMmM1LTRmY2YtOGUzMC00OGIwZTI4NzA1M2RAbnpyLmJpei5pZDo0NDM/ZW5jcnlwdGlvbj1ub25lJnNlY3VyaXR5PXRscyZ0eXBlPXdzJmhvc3Q9bnpyLmJpei5pZCZwYXRoPSUyRm56ciUyRjE4OC4yNTMuMTE3LjE1NC00NDMmc25pPW56ci5iaXouaWQjWzE3XSBUVyAtIEFrYXJpIE5ldHdvcmtzIChUYWlwZWkpIFtWTEVTUy1UTFNdCnZsZXNzOi8vMGM5OWEzZmQtYzBiZi00MzQxLWI0MzgtMTUxMmI0ZDQxNGUzQG56ci5iaXouaWQ6NDQzP2VuY3J5cHRpb249bm9uZSZzZWN1cml0eT10bHMmdHlwZT13cyZob3N0PW56ci5iaXouaWQmcGF0aD0lMkZuenIlMkYyMTAuNjEuOTcuMjQxLTgxJnNuaT1uenIuYml6LmlkI1sxOF0gVFcgLSBDaHVuZ2h3YSBUZWxlY29tIENvLiBbVkxFU1MtVExTXQp2bGVzczovLzJmZjYxNTQwLTFkZWItNDgyNS05MzJiLTVmNjBkOTQ3ZGMxZEBuenIuYml6LmlkOjQ0Mz9lbmNyeXB0aW9uPW5vbmUmc2VjdXJpdHk9dGxzJnR5cGU9d3MmaG9zdD1uenIuYml6LmlkJnBhdGg9JTJGbnpyJTJGNjAuMjQ5LjExNC4xODEtMTYwMjImc25pPW56ci5iaXouaWQjWzE5XSBUVyAtIENodW5naHdhIFRlbGVjb20gQ28uIFtWTEVTUy1UTFNdCnZsZXNzOi8vYzRiNjdjYTEtNjk2NC00Mzk0LThjZTktMmY1MjEzNDBkZDljQG56ci5iaXouaWQ6NDQzP2VuY3J5cHRpb249bm9uZSZzZWN1cml0eT10bHMmdHlwZT13cyZob3N0PW56ci5iaXouaWQmcGF0aD0lMkZuenIlMkY2MC4yNDkuMTE0LjE4MS0yMTU3NCZzbmk9bnpyLmJpei5pZCNbMjBdIFRXIC0gQ2h1bmdod2EgVGVsZWNvbSBDby4gW1ZMRVNTLVRMU10Kdmxlc3M6Ly8yODBhMTRmNS01YjJiLTQ3MjctOTIwOS02MjE5ZTRjYzdkYWNAbnpyLmJpei5pZDo0NDM/ZW5jcnlwdGlvbj1ub25lJnNlY3VyaXR5PXRscyZ0eXBlPXdzJmhvc3Q9bnpyLmJpei5pZCZwYXRoPSUyRm56ciUyRjEyMi4xMTcuMTc0LjgwLTQ0MyZzbmk9bnpyLmJpei5pZCNbMjFdIFRXIC0gQ2h1bmdod2EgVGVsZWNvbSBDby4gW1ZMRVNTLVRMU10Kdmxlc3M6Ly85ZmQ4ODRhZS00OGQ5LTRjMjYtYWM2NS0xNDFkNmU1NWJkYTFAbnpyLmJpei5pZDo0NDM/ZW5jcnlwdGlvbj1ub25lJnNlY3VyaXR5PXRscyZ0eXBlPXdzJmhvc3Q9bnpyLmJpei5pZCZwYXRoPSUyRm56ciUyRjYwLjI0OS4xMTQuMTgxLTI2Mzk4JnNuaT1uenIuYml6LmlkI1syMl0gVFcgLSBDaHVuZ2h3YSBUZWxlY29tIENvLiBbVkxFU1MtVExTXQp2bGVzczovL2M0OTkxZjg2LWJmYjItNGJjMy05OTA0LWFlNjIyZWU2YWE0ZkBuenIuYml6LmlkOjQ0Mz9lbmNyeXB0aW9uPW5vbmUmc2VjdXJpdHk9dGxzJnR5cGU9d3MmaG9zdD1uenIuYml6LmlkJnBhdGg9JTJGbnpyJTJGNjAuMjQ5LjExNC4xODEtMTEyODUmc25pPW56ci5iaXouaWQjWzIzXSBUVyAtIENodW5naHdhIFRlbGVjb20gQ28uIFtWTEVTUy1UTFNdCnZsZXNzOi8vM2E2MTg5ZGQtY2MyNC00OWFlLTg5YjgtMzQ4ZDczMGE1NTkxQG56ci5iaXouaWQ6NDQzP2VuY3J5cHRpb249bm9uZSZzZWN1cml0eT10bHMmdHlwZT13cyZob3N0PW56ci5iaXouaWQmcGF0aD0lMkZuenIlMkY2MC4yNDkuMTE0LjE4MS0xMjI4MSZzbmk9bnpyLmJpei5pZCNbMjRdIFRXIC0gQ2h1bmdod2EgVGVsZWNvbSBDby4gW1ZMRVNTLVRMU10Kdmxlc3M6Ly85NDI5YzQwZC05ZDM0LTQzNmEtYjZjYy1jNmM3MGZkZDdlODdAbnpyLmJpei5pZDo0NDM/ZW5jcnlwdGlvbj1ub25lJnNlY3VyaXR5PXRscyZ0eXBlPXdzJmhvc3Q9bnpyLmJpei5pZCZwYXRoPSUyRm56ciUyRjYwLjI0OS4xMTQuMTgxLTMyMDAzJnNuaT1uenIuYml6LmlkI1syNV0gVFcgLSBDaHVuZ2h3YSBUZWxlY29tIENvLiBbVkxFU1MtVExTXQp2bGVzczovL2M0OTMxNzM0LWViZmUtNDJmNC05MmI4LThmNDM5NjgwNDQxMEBuenIuYml6LmlkOjQ0Mz9lbmNyeXB0aW9uPW5vbmUmc2VjdXJpdHk9dGxzJnR5cGU9d3MmaG9zdD1uenIuYml6LmlkJnBhdGg9JTJGbnpyJTJGMTAzLjEwNi4yMzAuMTg2LTgxJnNuaT1uenIuYml6LmlkI1syNl0gVFcgLSBPbmVwcm92aWRlci5jb20gLSBUYWlwZWkgSW5mcmFzdHJ1Y3R1cmUgW1ZMRVNTLVRMU10=
+# Clash Configuration
+# Generated: 2025-09-16T03:02:09.932Z
+# Server: default
+# Wildcard: false
+# Country: TW
+# Type: vless
+# Limit: 500
+
+proxies:
+  - name: "[1] TW - Taiwan [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 38d083d3-2ec2-480e-b256-1ba37dc2fd9f
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/151.242.153.9-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[2] TW - Taiwan [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: a27d0c12-f795-4302-9bd1-82e9f76b4c71
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/182.155.79.69-11250
+      headers:
+        Host: nzr.biz.id
+  - name: "[3] TW - Akile LTD [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: b066b782-d966-466d-9bfa-23a906a67e4b
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/45.207.158.29-2053
+      headers:
+        Host: nzr.biz.id
+  - name: "[4] TW - AKILE LTD [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 13ad6269-73f4-4825-853b-32d232254612
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/141.11.86.94-18333
+      headers:
+        Host: nzr.biz.id
+  - name: "[5] TW - Chunghwa Telecom Co. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 8e015024-8123-4a3b-ab37-d020e27e9270
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/118.163.37.32-81
+      headers:
+        Host: nzr.biz.id
+  - name: "[6] TW - ST Network LLC [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 72adbeaf-62c1-49b1-8110-885a35f767e2
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/167.253.153.247-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[7] TW - ByteVirt LLC [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: a198d7d0-4e98-48e5-9dbb-fc049a56b875
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/213.210.4.49-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[8] TW - Kaopu Cloud HK Limited [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: cbd55ebf-4d76-4d45-b679-3d92176e9eda
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/149.104.120.254-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[9] TW - Chunghwa Telecom Co. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: ed841094-3608-4b46-944f-3cf702d3716e
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/220.135.202.250-81
+      headers:
+        Host: nzr.biz.id
+  - name: "[10] TW - Taiwan [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 1b96c3f1-9245-495d-962e-05269badc1d9
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/182.155.79.69-12369
+      headers:
+        Host: nzr.biz.id
+  - name: "[11] TW - ByteVirt LLC [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 23aee004-99f3-4df5-9a22-3650488b2ad3
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/213.210.5.61-8443
+      headers:
+        Host: nzr.biz.id
+  - name: "[12] TW - Chunghwa Telecom Co. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 1099e1a3-a3f0-4cde-812a-f961737a34df
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/114.34.202.224-10004
+      headers:
+        Host: nzr.biz.id
+  - name: "[13] TW - Akile LTD [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: a7ade0b5-e355-4093-aa35-b05db9a7b68e
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/45.207.158.29-8443
+      headers:
+        Host: nzr.biz.id
+  - name: "[14] TW - Akari Networks (Taipei) [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 41bfa5df-f2b8-43a2-942f-7639298ad2cd
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/188.253.6.53-25884
+      headers:
+        Host: nzr.biz.id
+  - name: "[15] TW - AKILE LTD [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 2a660ef0-d1bd-4ee1-8fb8-0a125854bc4f
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/141.11.86.94-45888
+      headers:
+        Host: nzr.biz.id
+  - name: "[16] TW - Akile LTD [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: e742e320-593d-4f49-99ba-fc6a738a0c4c
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/45.207.158.29-2083
+      headers:
+        Host: nzr.biz.id
+  - name: "[17] TW - Akari Networks (Taipei) [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: d92ecb38-c9b0-47fd-aa43-868bae4a1655
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/188.253.117.154-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[18] TW - Chunghwa Telecom Co. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 819b9d5f-f75f-4e0d-9116-6a8289826fde
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/210.61.97.241-81
+      headers:
+        Host: nzr.biz.id
+  - name: "[19] TW - Chunghwa Telecom Co. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 5a2b8d5f-6bef-43dc-8026-ed523e9693b8
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/60.249.114.181-16022
+      headers:
+        Host: nzr.biz.id
+  - name: "[20] TW - Chunghwa Telecom Co. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 61bd5da8-19da-4f0a-844c-a2d454b8ec52
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/60.249.114.181-21574
+      headers:
+        Host: nzr.biz.id
+  - name: "[21] TW - Chunghwa Telecom Co. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 92a25a73-1320-418b-87ee-003ff7606a2f
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/122.117.174.80-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[22] TW - Chunghwa Telecom Co. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 356ba3ce-978c-4114-ad2b-9b8cd8da7a5c
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/60.249.114.181-26398
+      headers:
+        Host: nzr.biz.id
+  - name: "[23] TW - Chunghwa Telecom Co. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 2dd2a510-cdf9-486d-b0f3-dce0d478e99b
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/60.249.114.181-11285
+      headers:
+        Host: nzr.biz.id
+  - name: "[24] TW - Chunghwa Telecom Co. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: d0812646-2d67-4910-8ee2-59e90608f282
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/60.249.114.181-12281
+      headers:
+        Host: nzr.biz.id
+  - name: "[25] TW - Chunghwa Telecom Co. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: a4f2a5b9-6ff6-48fc-b456-ae38bb1a1cd0
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/60.249.114.181-32003
+      headers:
+        Host: nzr.biz.id
+  - name: "[26] TW - Oneprovider.com - Taipei Infrastructure [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: cef3dfad-9ad0-44de-aa5b-36c7fd17f71a
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/103.106.230.186-81
+      headers:
+        Host: nzr.biz.id
