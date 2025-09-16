@@ -1,4203 +1,2882 @@
-{
-  "outbounds": [
-    {
-      "type": "vless",
-      "tag": "[1] JP - Alibaba Cloud (Singapore) Private Limited [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "4704b7c6-1ec8-4cd1-80ae-f5bebfab619f",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/8.211.16.138-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[2] JP - Alibaba Cloud (Singapore) Private Limited [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "1a7d3b3f-1b46-4157-b789-7b0a43af84d5",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/8.211.60.34-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[3] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "e534ed30-9a57-4eee-986f-fac5b4e38cea",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/141.147.188.120-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[4] JP - Datacamp Limited [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "fcd68961-ec36-4623-acb7-a54b61dccb87",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/151.248.68.11-2053",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[5] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "afa71e95-7a8a-4026-b4cd-e6e439b03b8d",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/45.76.198.248-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[6] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "31f250d8-ab90-4c25-84c9-ca6c309fdb77",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/167.179.96.121-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[7] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "c7f4b446-118c-420a-bcb3-5bec656d15ea",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/158.101.77.33-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[8] JP - Akamai Connected Cloud / Linode [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "a70235b0-c30f-4d07-b973-453a6f0ca70e",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/172.105.199.91-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[9] JP - Linode [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "912d4af6-45f2-4971-9fa4-abaacadfb3a2",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/172.104.117.43-12452",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[10] JP - Akamai Connected Cloud / Linode [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "7d657118-1529-487c-8fc7-d81ab6765d89",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/172.105.199.111-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[11] JP - Prinode AB [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "868b9dcb-b50a-4776-81f7-3b6e98f03578",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/212.52.0.61-1846",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[12] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "b838bff2-551b-4dbe-b0a4-b1f37a902b08",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/45.76.100.173-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[13] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "fe237091-6233-4ecd-89f5-163ec1bc2ecd",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/64.110.101.90-55007",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[14] JP - CDNetworks co. [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "7e570009-a4bb-4f05-809d-8b4fd84f50e1",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/210.138.37.53-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[15] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "c5b9e55a-63e5-404c-a2ed-605dee04f7c1",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/138.2.59.96-10129",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[16] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "ae612a2b-15ed-4b69-a690-af343e08b44c",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/131.186.63.89-11655",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[17] JP - ByteVirt LLC [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "29ec2a53-9427-4a2a-9962-44612608c67f",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/147.79.20.47-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[18] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "620eb9b4-2ba6-4707-806c-bbfba75876b4",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/64.110.104.30-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[19] JP - The Constant Company [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "92731a1a-12b2-4d1c-bd6d-3e719f21a53b",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/64.176.39.147-16387",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[20] JP - Oracle Network Information Services [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "3e84595e-123d-4776-9608-ae04a8a4117d",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/138.3.222.33-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[21] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "95c3a12c-61fc-4520-9ef5-5e2a63f2758f",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/168.138.51.8-8443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[22] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "b86a92cf-d978-4bb4-bc9a-3146934c1387",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/150.230.5.34-45681",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[23] JP - Linode [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "e1dbcb6f-9a02-4bb0-8e71-37bfc12d8bde",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/172.104.127.132-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[24] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "f3f87312-3bf1-439b-a364-467b3860a9ea",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/141.147.152.229-23333",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[25] JP - The Constant Company [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "12855798-98b2-4ea9-9346-3ccaa9bd85dd",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/149.28.25.176-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[26] JP - Kvmcloud Network Co. [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "0267499d-8c28-4896-a93d-b5338d19720d",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/103.232.213.117-8080",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[27] JP - Alibaba Cloud (Singapore) Private Limited [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "2d3046d3-64b3-44e2-9268-492b77126e7c",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/47.79.41.201-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[28] JP - IT7 Networks Inc [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "eb2ffa8b-397e-4565-833e-9b2300738a0d",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/192.243.125.209-8443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[29] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "72f31d1e-69ff-4c4c-9ace-2ef21eb47c78",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/43.224.34.60-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[30] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "92fab3e7-a555-44e7-ba2f-436d6a4d465d",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/141.147.161.249-51037",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[31] JP - Alibaba Cloud (Singapore) Private Limited [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "db50d2ac-7ec0-4cf3-8904-63d3697b5f83",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/47.79.92.16-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[32] JP - Oracle Svenska AB [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "7ca24097-5840-4152-af31-41fcbf04937a",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/217.142.243.226-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[33] JP - CEGRGO-DigitalVM LLC [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "414b7977-dacc-4e3d-85d2-d1559690a634",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/5.180.76.44-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[34] JP - imported inetnum object for OCPL-1 [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "6c277ee5-2914-4455-ad3b-39efa5af2e0b",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/140.83.63.113-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[35] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "1397f3a1-fe1e-46d3-abfd-31359ed8b857",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/64.176.42.125-10001",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[36] JP - GLOBAL CONNECTIVITY SOLUTIONS LLP [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "62a1fbe0-9125-4740-bc2f-078d497baa03",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/147.45.49.11-8443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[37] JP - WorkTitans B.V. [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "8c60d118-3b2b-48b4-a09d-ef41a534f19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/91.194.160.45-2053",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[38] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "fbe521f7-6363-43a2-9a51-72a70b0d6364",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.69.192.40-57005",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[39] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "6f55ee3c-4329-4279-bf0e-de7b20785eaa",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/168.138.46.67-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[40] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "d3ee7678-6ea2-4e84-812e-2e5d28cf6fa1",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/138.2.39.24-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[41] JP - The Constant Company [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "01016aa4-b435-43e0-89f5-d64847126a0f",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/64.176.42.125-10008",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[42] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "2683e017-97c1-4fb1-a0a5-7348de695ede",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/140.238.50.134-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[43] JP - SAKURA Internet Inc. [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "4339fae8-8093-48d4-b68f-ae2926ec110e",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/49.212.133.94-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[44] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "9ea476c7-4e7d-4ef2-bbd8-84586b138ba2",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/168.138.46.115-43138",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[45] JP - Contabo GmbH [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "52a14d0e-7f08-42b4-a2d1-6c439f847044",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/109.123.231.212-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[46] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "6288ec7e-8421-4279-88ce-5b08fab9a7b3",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/168.138.198.7-27560",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[47] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "6f21bcf2-efdc-40f8-b56d-2527ffd68a57",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/168.138.213.1-50003",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[48] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "199c01e3-e54c-4955-a1aa-61f3be102cd8",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/141.147.144.15-13357",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[49] JP - oneprovider.com - Tokyo Infrastructure [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "eefaebe2-90ed-41d6-b913-0d3ac5ebd1bc",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/103.106.228.126-2053",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[50] JP - Alibaba Cloud (Singapore) Private Limited [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "d7c9264d-5588-4500-a353-7904007a47ea",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/8.216.121.234-51922",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[51] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "c209a28f-1cb4-42e5-a632-90e7bff399d4",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.70.101.24-16038",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[52] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "3d529539-8065-41f9-8f98-d8054a2808e5",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/138.2.10.149-45638",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[53] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "cd08307b-0538-4c16-bb8f-660cd03bf890",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.70.101.24-16666",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[54] JP - ARTERIA Networks Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "d05d7471-d50f-4106-aa2b-2796ade23f1e",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/113.37.149.36-12553",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[55] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "99e375a4-3069-4fbd-98d9-1856a9b7299e",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.70.101.24-16037",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[56] JP - 3nt solutions LLP [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "fd9e6f7f-c107-4fca-a5b2-e6cfa4e0a474",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/176.97.70.119-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[57] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "0e6f6a92-dbfc-419b-aead-474f7fae66a1",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.70.101.24-16028",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[58] JP - Akamai Connected Cloud / Linode [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "54627220-21f9-4d19-a76c-e6fb08493658",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/172.105.199.137-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[59] JP - GLOBAL CONNECTIVITY SOLUTIONS LLP [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "22e11fa3-eea1-49b1-8904-d22ebe84d9c4",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/147.45.49.193-2053",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[60] JP - Alibaba Cloud LLC [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "2c1c25d9-6d2e-4872-b0a9-bf0f8be78852",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/47.79.35.191-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[61] JP - 3nt solutions LLP [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "5e7e64bb-911e-4468-ab3c-86fd5467083e",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/176.97.70.166-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[62] JP - CLARA ONLINE [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "46528ab1-ace7-403b-92d9-61489ebc99c6",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/202.55.27.166-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[63] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "b8128737-7cf1-4e24-8458-d8ee15c4e26d",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.70.101.24-16004",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[64] JP - Akari Networks (Tokyo) [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "eb94f580-29f0-4151-b4f4-6726665a4aef",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/5.226.50.109-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[65] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "5be6d32a-448d-478d-a3bf-18f19b222a20",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.69.199.70-8443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[66] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "4cb45b99-2649-47f5-8142-a88084a68120",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/138.2.32.76-15821",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[67] JP - 3nt solutions LLP [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "a92b0966-0bb3-48fd-8f3e-45b7ed33464c",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/176.97.70.121-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[68] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "85089ebe-4fce-49d0-b366-ba382dafe707",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/138.2.10.217-27446",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[69] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "0c7b9102-c13d-4864-84ad-bd12a2924eb0",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.70.101.24-16077",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[70] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "ea2d5edf-1ce2-45f2-99c0-074dc05bbfa9",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.70.101.24-16096",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[71] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "b333e253-691d-4563-9963-e10f7437f6cd",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.70.101.24-16401",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[72] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "007c2ee9-5b0f-4f5d-8bdc-ab06ea0dc922",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.70.101.24-16056",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[73] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "8145a044-0978-4b1d-8a79-680338de7114",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.70.101.24-16007",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[74] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "52d06792-96d8-4d71-bccc-d4df13fd4e88",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/132.145.126.40-32498",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[75] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "e9cbff0d-98f0-4188-9bed-76a84258c26f",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.70.101.24-16054",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[76] JP - 6 COLLYER QUAY [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "c6030edf-45b8-4cec-917f-6af10e4b2c49",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/43.133.10.236-33405",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[77] JP - Shiodome Sumitomo Blog 1-9-2 TOKYO [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "a952f936-c84f-4964-8296-444b4d97ebc6",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/8.209.220.50-21273",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[78] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "aadcf076-e8df-4bd2-80e4-13086bc03415",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.70.101.24-16404",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[79] JP - Oracle Svenska AB [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "2c64cc1f-278d-4abc-876e-2f26d8b6d1f3",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/217.142.236.93-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[80] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "d6df80fd-729c-4e70-aea9-c91dfcfd5c55",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/138.2.18.82-8880",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[81] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "017b5649-e490-49ab-852d-cd78a6a74c00",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/141.147.147.180-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[82] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "093a49e8-b90d-48c8-b13d-5a38baa60972",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/132.226.8.109-43257",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[83] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "a51b45bd-5ebb-4bc8-b7ad-d2bb5fca642e",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.70.101.24-16030",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[84] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "2c853087-db34-42a3-b0ea-d836b5a9e6d9",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.70.101.24-16055",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[85] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "bea4f2e0-7e47-4ad2-b315-edbbf85494be",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/132.145.115.62-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[86] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "b1c01e88-2973-4332-b7f5-7b26ca69ba26",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.70.101.24-16050",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[87] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "02e882a5-6af3-405c-831a-f7e9c3242be8",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.70.101.24-16993",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[88] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "5e597859-334e-440c-8ed1-ee532525c113",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.70.101.24-16059",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[89] JP - 3nt solutions LLP [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "3a58d100-f604-4fb8-8b35-185d827b4d24",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/176.97.70.154-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[90] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "56dbb437-b0e9-497d-ac01-7c35e22c98e4",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.70.101.24-16031",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[91] JP - IDC Frontier Inc. [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "1312a0e1-c847-43ae-818e-f22489382bab",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/203.137.166.120-50090",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[92] JP - xTom [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "a6e7b3dc-0160-41b2-9264-3d29c20c8f84",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/185.184.223.85-8443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[93] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "18976a79-8aca-47cf-86b7-9f0147149906",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/141.147.185.15-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[94] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "7707be7c-3152-4041-9be1-f0b662563939",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/45.32.49.72-9443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[95] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "c489d81f-3eff-477c-9fc3-3ec6d4ae3a61",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/132.145.127.203-8443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[96] JP - GLOBAL CONNECTIVITY SOLUTIONS LLP [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "183dc64c-c921-401a-b845-0fe9191412bd",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/147.45.49.164-24443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[97] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "a66ff72e-b53b-44b5-8dc8-a81725450f56",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/149.28.18.161-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[98] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "eb6dca13-b5c8-4f06-96b3-3c0271d86c73",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/138.2.48.109-26412",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[99] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "ab659e68-17a6-4786-a2b0-9f2141df14c4",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/45.63.123.176-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[100] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "77cba043-ab6d-49eb-ae77-79d64bb397ef",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/45.32.55.253-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[101] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "31343de7-eca7-42dd-a0f5-da39a54179fd",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/207.148.113.196-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[102] JP - Guangzhou LinSeek Network Technology Co.Ltd [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "5daad02b-a4e8-48c2-9746-6c56f4859946",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/103.42.107.254-8443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[103] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "280fd196-f75f-4d41-891a-8e5ac828aae1",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/45.77.178.190-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[104] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "632495c5-8c86-4b58-a222-6e946c81bc76",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/202.182.122.164-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[105] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "c781ebf3-811d-43ba-befb-f5a582294271",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/45.76.111.190-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[106] JP - 3nt solutions LLP [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "55a11c0f-2d97-4f83-b609-33964ad6aed0",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/176.97.70.51-2053",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[107] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "91c4214d-b8d6-40bb-99e9-5489a7a2f7c2",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/167.179.110.68-8443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[108] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "3583cbde-b627-4aa8-887d-654f39f47b90",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/141.147.168.141-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[109] JP - Akamai Connected Cloud / Linode [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "f11dfc65-489e-4659-80c3-45d9f66d0201",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/172.105.226.139-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[110] JP - AKILE LTD [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "f0b6b5c8-19b2-4b56-b7bc-44c706bcbdc8",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/82.163.16.69-8080",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[111] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "d1a2cb3d-3430-4a7f-936f-210f3b01b797",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/45.32.252.168-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[112] JP - Oracle Network Information Services [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "17b5d7f6-7f06-486e-abc4-b1a26791ea5c",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/138.3.222.124-46209",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[113] JP - Alibaba Cloud LLC [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "c287eec7-2352-4dbc-8f10-3b20e5d0764c",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/47.79.38.17-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[114] JP - Akamai Connected Cloud / Linode [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "c6fb9f5f-7a90-4153-b34c-c925041e1e16",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/172.104.116.214-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[115] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "ac9243d8-3884-4903-b0a9-ebb6a9c6f466",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/141.147.185.63-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[116] JP - DMIT Cloud Service - Tokyo [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "e6290ec7-1e18-4a4e-831a-645bcf9412e1",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/154.31.113.72-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[117] JP - AKILE LTD [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "67f26cb0-3874-49fc-9b12-bd69a3b8d069",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/193.246.161.65-54310",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[118] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "5785630d-7857-4f4c-836c-578b61dd235a",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/158.101.71.226-8443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[119] JP - AKILE LTD [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "94104e1a-fd85-4d79-a04b-730eb971f048",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/82.163.16.229-26803",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[120] JP - 3NT SOLUTIONS LLP [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "c78e1ba9-487c-4719-b078-9c4d85649cae",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/38.180.28.163-2053",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[121] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "7edae2ef-8246-45db-be8f-06703d85cb11",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/45.76.193.107-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[122] JP - Amazon Data Services Japan [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "601da058-88c3-460f-9476-85b75c3e5727",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/18.183.158.211-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[123] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "901e146e-0c53-4d4c-9ce0-4b46f7542902",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/167.179.86.6-8443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[124] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "eb394e77-fde1-43e3-95c1-90a6968f5253",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/45.76.52.128-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[125] JP - Alibaba Cloud LLC [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "5f02ce44-a3f0-4c4d-9674-8d10a71ea8f0",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/47.79.43.222-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[126] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "97285286-5a79-4ec6-a09a-182cc29cab2f",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/149.28.21.106-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[127] JP - TYO_VULTR_CUST [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "02ecea14-0129-449e-9c5e-a3e1152eea37",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/207.148.105.247-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[128] JP - Akile LTD [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "1f5a9990-d054-4a54-829e-c3f5058326df",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/156.231.117.209-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[129] JP - Akamai Connected Cloud / Linode [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "0913e5b8-075e-4cb9-9489-1c0bea8b32d6",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/139.162.102.152-7002",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[130] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "0eb460a3-ab00-4e63-ab0e-9228e55e88da",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/141.147.159.250-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[131] JP - ARTERIA Networks Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "fdf90888-54fd-471e-9b9e-5d881275e83a",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/118.21.134.114-12553",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[132] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "87197d77-2a2f-4e0b-b748-79850b44910d",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/108.160.141.198-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[133] JP - xTom Japan Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "2cde37ba-ee0e-4223-9025-51163c3b1421",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/141.98.197.101-11665",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[134] JP - Akamai Connected Cloud / Linode [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "15d613b9-d408-4f59-bac0-85e272da84e3",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/139.162.108.5-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[135] JP - 3NT SOLUTIONS LLP [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "4c66977a-e14b-432d-b41f-5ef3426fd6ac",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/38.180.29.40-2053",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[136] JP - Jurgita Jurgaitiene trading as LOCOTORPI [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "0c0533f6-75df-41fe-89f3-e6540d531da2",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/185.18.222.208-2053",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[137] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "3a368b14-2eb7-4e69-8b0c-4793728f2c97",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/104.238.151.229-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[138] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "7851affa-b8ca-4767-8fee-3288532e32ee",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/108.160.139.154-8443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[139] JP - Japan Internet Xing Co. [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "28ca2870-508b-44e5-b946-ce81f5b738e3",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/27.83.68.142-8443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[140] JP - Akamai Connected Cloud / Linode [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "112a4081-ccc1-44e4-ae5a-ba09f165617c",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/139.162.84.132-18836",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[141] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "e3a64f8d-1940-4315-afba-b2393f6e331c",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/108.61.126.17-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[142] JP - The Constant Company [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "8e3b5e00-188f-4bb1-8205-54b6270b396c",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/167.179.116.28-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[143] JP - Private Customer [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "e7d59bc3-1ea0-455d-be0e-a5888e783378",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/154.31.114.136-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[144] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "f867ddcc-c965-4fdf-a78a-6880eaaee5ca",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/45.77.176.87-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[145] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "d6404b0e-ccc0-40a7-a928-19c2fba0cf8e",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/158.101.80.84-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[146] JP - Jupiter Telecommunications Co. [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "12c056cd-e1a3-46a6-a37b-237a2e02e8c9",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/219.117.2.190-57517",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[147] JP - Amazon Data Services Japan [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "34aa238d-6df8-4463-9240-9dcebc49cd25",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/52.194.236.221-8443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[148] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "230d5fad-b247-4f52-8415-98ab22304796",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/140.238.37.103-14782",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[149] JP - NPO G-net [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "9d885aed-0dc5-4b29-9b4c-388da9c3c2b4",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/206.237.120.143-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[150] JP - Amazon Data Services Japan [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "e3852220-0db9-4558-88a2-07b2a01a3d6b",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/35.78.229.176-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[151] JP - GMO Internet [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "acfbfe64-26df-47a1-a800-424a63143bfc",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/118.27.12.40-38443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[152] JP - The Constant Company [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "85d1afd0-abed-4f7c-90ba-e48b203fa955",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/64.176.36.17-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[153] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "65236e28-0bff-49ff-a7fe-7f629e02297e",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/64.110.101.31-8443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[154] JP - Microsoft Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "c54e7806-6102-4bb3-a44e-46bf089f9ea5",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/20.78.59.52-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[155] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "9b6ebb4d-280a-4ebe-8873-0b1c7606912e",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/141.147.162.24-1235",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[156] JP - Alibaba Cloud LLC [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "16314930-40d4-4c8d-a993-378ea94e3eb4",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/47.79.90.37-49153",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[157] JP - The Constant Company [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "f734b7b6-5dbe-448d-90fb-cbe86945fc17",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/64.176.55.11-29999",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[158] JP - Alibaba Cloud (Singapore) Private Limited [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "c87ff98c-3580-4235-bea8-8cda7c8bc661",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/47.79.42.197-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[159] JP - Jupiter Telecommunications Co. [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "b4aa9e3b-3318-41a1-b948-8c3dba0d8d39",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/219.117.2.190-48401",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[160] JP - imported inetnum object for OCPL-1 [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "20cecec8-c4a4-4095-a76b-c24612d263db",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/140.83.60.81-18443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[161] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "d41b9ab7-292b-4f17-a6e5-8936b568afec",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/132.145.116.185-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[162] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "6d40015b-ec10-4f57-b1f1-f8378135ecb0",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/158.101.154.245-47001",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[163] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "0e33d925-b463-4654-b352-940f228923d5",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/168.138.193.174-11959",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[164] JP - CEGRGO-DigitalVM LLC - Tokyo [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "12d042df-a5e6-4e12-960f-573b8cc52fba",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/45.11.1.118-44004",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[165] JP - Alibaba Cloud - JP [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "f6a7a7b0-73e8-47a1-a368-a1ce8cbf6e8b",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/47.74.8.30-2443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[166] JP - WorkTitans B.V. [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "625c2e91-14e6-4c61-95e0-57a78f26e52f",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/103.106.0.123-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[167] JP - Amazon Data Services Japan [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "90f45dd1-9492-451a-9cd7-ee647060c61c",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/3.112.21.102-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[168] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "281cef1a-aa0f-4bfd-81c2-daa4353f798b",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/155.248.184.178-30011",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[169] JP - Akamai Connected Cloud / Linode [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "f5df5f20-9075-43d1-8d51-2932339d0f51",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/172.105.199.184-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[170] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "a6871754-d755-4ddf-b849-288eda5e4352",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/158.101.152.6-2919",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[171] JP - imported inetnum object for OCPL-1 [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "7346e179-80bf-4a86-9bb0-1674c101eaf0",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/140.83.57.114-25965",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[172] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "ae066796-b76c-4f3a-8327-60ba53600bfc",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/132.145.127.203-2053",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[173] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "32ec8cd8-fb08-4bba-8ac0-6cf286c17b13",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/158.101.76.55-21953",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[174] JP - imported inetnum object for OCPL-1 [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "6bf268cb-a9c6-4f12-9bef-9f6499758082",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/140.83.59.158-15805",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[175] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "b40b370c-5b2a-40bd-8c3e-3e890c000f0a",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.70.82.101-18650",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[176] JP - IT7 Networks Inc [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "af5d8071-a0f8-4c1d-a56d-b9511779fc1d",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/23.106.140.129-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[177] JP - imported inetnum object for OCPL-1 [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "663dfc68-2f29-4f48-b46e-38ee56e3f14e",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/140.83.57.20-13118",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[178] JP - imported inetnum object for OCPL-1 [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "f1c6a717-04a7-449c-99bd-863d0f473ca7",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/140.83.57.183-22735",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[179] JP - Amazon Data Services Osaka [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "4d85e497-d12d-4ee3-b8eb-3b1ee29eeff5",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/15.168.175.167-2087",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[180] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "8690db92-1512-4b49-ab05-09be44669ef7",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/198.13.42.58-32954",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[181] JP - Cluster Logic Inc [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "d67a2570-aa42-43a9-9c3d-65322d19678d",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/178.157.56.26-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[182] JP - Akamai Connected Cloud / Linode [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "bfb3f6a1-74fe-4e55-b16d-03197434a8db",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/172.104.116.38-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[183] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "eab73d8f-0a05-46dd-9dc5-dbe2fbc23a90",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/140.83.83.65-9872",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[184] JP - 16 COLLYER QUAY # 18-29 INCOME AT RAFFLES [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "3fe3be20-7fde-4a27-a215-8190b79c8682",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/43.165.183.43-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[185] JP - Nearoute Limited [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "bf94282e-55b1-40e5-acc1-f90ee898ec49",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/38.207.137.217-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[186] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "6f6a7da6-b41e-4f5a-bd4a-a4c9a0277208",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/202.182.116.249-8443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[187] JP - DDPS Networks [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "bc91d15d-02d8-41f4-ab51-ebd6bcb4e6e6",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/158.51.111.105-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[188] JP - Oracle Svenska AB [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "281165c9-81c1-4990-9212-a15c73254674",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/217.142.226.168-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[189] JP - imported inetnum object for OCPL-1 [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "561a71f9-db7f-4625-8178-cd842c196d5f",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/140.83.57.86-54322",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[190] JP - SAKURA Internet Inc. [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "1f345892-e01c-4043-889c-5380ccbcf4be",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/153.121.45.101-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[191] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "994bef0e-51ec-460c-bd6c-4fefa4288271",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/150.230.204.21-10243",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[192] JP - imported inetnum object for OCPL-1 [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "9c87d07d-f708-4441-a888-4fca8add228c",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/140.83.56.110-56417",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[193] JP - Cloudflare London [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "fa587446-5f54-44d4-8e7f-45fc894ca5c6",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/138.2.5.136-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[194] JP - 16 COLLYER QUAY # 18-29 INCOME AT RAFFLES [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "4ce47376-2bf0-4b4a-b493-adaf5bc7719b",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/43.153.155.49-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[195] JP - VPSServer.com /24 block for Tokyo location [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "2f53bea0-af54-4596-8b8e-788d427578bb",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/103.125.216.22-8443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[196] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "4f13ac7e-ec37-475b-a4eb-a4c14902c2d7",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/150.230.214.172-16957",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[197] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "2aa6651e-a165-4d82-abc5-8c72ebe16ac7",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/141.147.183.49-29876",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[198] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "405d0857-750e-4546-9ff1-c6b6043d13aa",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/140.238.62.82-1443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[199] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "3d7f5b3e-9799-4907-a3d0-2f2db3773eef",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/158.101.89.113-50443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[200] JP - IPX [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "d0dab074-5c44-4b65-a1f9-0e708800bf5f",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/103.238.129.215-42734",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[201] JP - Server Hosting Service(NTTPCCommunications [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "5a0291c7-57cd-4bd6-a627-88f22371965f",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/210.231.178.90-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[202] JP - Amazon Data Services Japan [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "c5b844e9-6822-46a5-8fd6-8138ffd79e7d",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/18.177.83.181-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[203] JP - Alibaba Cloud (Singapore) Private Limited [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "23b16de6-c932-4b7e-8352-8dad2dfe0465",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/47.79.34.117-10036",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[204] JP - Securebit AG [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "81550c75-5411-4c4c-a89e-a403c5797975",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/109.61.109.42-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[205] JP - ByteVirt LLC [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "084e449d-c185-4db2-b192-1663260fc367",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/147.79.20.239-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[206] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "5093460c-49bd-49a1-a6b8-257c7cdc5ae8",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/168.138.197.147-12345",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[207] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "106654e5-26f5-4242-b166-65493303afe1",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/158.101.131.94-2083",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[208] JP - Contabo GmbH [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "277ef090-f3ed-4850-a57a-2930a41f9234",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/84.247.152.46-10045",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[209] JP - Vultr Holdings [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "ece76a7b-76a3-4937-a68e-f602e8c1c8d1",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/45.76.192.129-24434",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[210] JP - OPTAGE Inc. [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "494591e1-d6ae-480a-ab9f-f2571e3ded5a",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/121.85.55.59-19842",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[211] JP - imported inetnum object for OCPL-1 [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "47db20c5-040c-46af-99a1-cab29d862b66",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/140.83.37.134-46478",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[212] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "465234b7-12b2-4b1e-998c-3565120cd948",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/193.123.161.116-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[213] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "9c27bd46-8559-46e6-97d8-b18508cf5275",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/152.70.97.53-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[214] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "6c4f42a2-fc03-45eb-b126-b5b4815d45a6",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/168.138.192.16-54584",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[215] JP - Cloudflare [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "8ee063f0-322c-463e-b9f2-07200abc2384",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/138.2.16.61-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[216] JP - High Sierra Networks [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "4227310e-5f03-4f29-83df-8ce7811dc68d",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/208.75.133.227-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[217] JP - Oracle Corporation [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "97ee232a-082b-479c-b85c-bfad839bbf6c",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/150.230.59.15-8443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[218] JP - Oracle Public Cloud [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "0a214637-7a43-40ff-a5af-8e4203034202",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/168.138.201.35-36637",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[219] JP - Azumino Network Community TV [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "651e2d2d-4c36-4f1a-bc58-628e700ce90d",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/202.84.53.85-19999",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[220] JP - Amazon Data Services Japan [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "feacf0ae-0ec4-47ad-a52b-32fadcafe409",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/13.230.34.30-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[221] JP - Alibaba Cloud (Singapore) Private Limited [VLESS-TLS]",
-      "server": "nzr.biz.id",
-      "server_port": 443,
-      "uuid": "48d8ef78-4bed-47b1-bacb-57a6c900dd4f",
-      "tls": {
-        "enabled": true,
-        "server_name": "nzr.biz.id",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nzr/8.209.4.205-443",
-        "headers": {
-          "Host": "nzr.biz.id"
-        }
-      }
-    }
-  ]
-}
+# Clash Configuration
+# Generated: 2025-09-16T03:00:14.247Z
+# Server: default
+# Wildcard: false
+# Country: JP
+# Type: vless
+# Limit: 500
+
+proxies:
+  - name: "[1] JP - Alibaba Cloud (Singapore) Private Limited [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 2afe726c-b472-415d-8a88-cc674fe59a45
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/8.211.16.138-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[2] JP - Alibaba Cloud (Singapore) Private Limited [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 4ff8747e-9a99-4e97-932b-95a3d0a43297
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/8.211.60.34-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[3] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: e408f137-84f2-4b28-8e53-b8175d2caef0
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/141.147.188.120-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[4] JP - Datacamp Limited [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: e3560de1-e0fa-48d5-b321-00c1c3988064
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/151.248.68.11-2053
+      headers:
+        Host: nzr.biz.id
+  - name: "[5] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 6f2ccb50-5236-4cac-8bbf-3d1ec6e25c6c
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/45.76.198.248-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[6] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: f6380851-86cb-4aad-820f-907ef5c25180
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/167.179.96.121-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[7] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: cf030a7c-18bd-4a4a-8dec-b13d69a8a320
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/158.101.77.33-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[8] JP - Akamai Connected Cloud / Linode [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 66e772d2-31ff-4bc0-b359-74add67bf4a0
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/172.105.199.91-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[9] JP - Linode [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 6a184f9e-2fb1-44d8-bdc2-391eeee92b9d
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/172.104.117.43-12452
+      headers:
+        Host: nzr.biz.id
+  - name: "[10] JP - Akamai Connected Cloud / Linode [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 0708366f-e2f3-4007-a042-f94896f65c1b
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/172.105.199.111-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[11] JP - Prinode AB [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: eb8a415b-039c-4bf1-8ee8-318ce9626df0
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/212.52.0.61-1846
+      headers:
+        Host: nzr.biz.id
+  - name: "[12] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 1a3bdd7f-58f1-4427-b9a7-31b2c13ade32
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/45.76.100.173-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[13] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 31816fad-d0f1-4de7-ad90-36d583065c64
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/64.110.101.90-55007
+      headers:
+        Host: nzr.biz.id
+  - name: "[14] JP - CDNetworks co. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: d4de1b89-0f55-4c71-9342-fea04dfeba11
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/210.138.37.53-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[15] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 96a00ded-07f9-4672-b0ba-a80f97c4a7dd
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/138.2.59.96-10129
+      headers:
+        Host: nzr.biz.id
+  - name: "[16] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 6e1607cf-4d85-4ec2-a500-713aa84f435e
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/131.186.63.89-11655
+      headers:
+        Host: nzr.biz.id
+  - name: "[17] JP - ByteVirt LLC [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: dc8cb84f-81bd-46b2-abd6-abf538bd62c6
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/147.79.20.47-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[18] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: f2d3e69e-e481-4d6a-813e-f5299c226fda
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/64.110.104.30-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[19] JP - The Constant Company [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 88a5632b-27c3-4e18-8eea-b6f728343883
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/64.176.39.147-16387
+      headers:
+        Host: nzr.biz.id
+  - name: "[20] JP - Oracle Network Information Services [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: bead9a1c-1042-42a3-b256-641222cf5c0b
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/138.3.222.33-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[21] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 374b9c3f-ce45-4856-8067-72a48518248c
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/168.138.51.8-8443
+      headers:
+        Host: nzr.biz.id
+  - name: "[22] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: f2b908ba-68a6-402d-ad6c-192336ec84fa
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/150.230.5.34-45681
+      headers:
+        Host: nzr.biz.id
+  - name: "[23] JP - Linode [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 97417568-2a3b-4985-84cd-1ba0366a3659
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/172.104.127.132-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[24] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: b189c91b-2497-4671-a691-c0e4fc0eba8b
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/141.147.152.229-23333
+      headers:
+        Host: nzr.biz.id
+  - name: "[25] JP - The Constant Company [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 1aae4b03-a49d-455e-9b76-d856291cab56
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/149.28.25.176-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[26] JP - Kvmcloud Network Co. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: d63d1806-a296-4977-b62b-6663a5310608
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/103.232.213.117-8080
+      headers:
+        Host: nzr.biz.id
+  - name: "[27] JP - Alibaba Cloud (Singapore) Private Limited [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 9fca82d0-d1d3-47af-9cb8-1383ebc9240d
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/47.79.41.201-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[28] JP - IT7 Networks Inc [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 22af9cbe-37a6-45a8-a05d-aab081df948e
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/192.243.125.209-8443
+      headers:
+        Host: nzr.biz.id
+  - name: "[29] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 8f759de1-09b0-4f5c-bf84-233f2e67d93f
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/43.224.34.60-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[30] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: dfa8f4d7-4efb-4696-a896-1b996e571b2e
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/141.147.161.249-51037
+      headers:
+        Host: nzr.biz.id
+  - name: "[31] JP - Alibaba Cloud (Singapore) Private Limited [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: ab2347ec-40c6-4f28-a718-19f9364a9c8d
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/47.79.92.16-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[32] JP - Oracle Svenska AB [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 21d2e8d0-4c4c-4405-b536-d3db80ac6a60
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/217.142.243.226-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[33] JP - CEGRGO-DigitalVM LLC [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 53b56a06-dcfa-4a50-a7d6-ed200bd9230e
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/5.180.76.44-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[34] JP - imported inetnum object for OCPL-1 [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 74ef0f10-b823-4f1d-b680-9b2ea4d75c4b
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/140.83.63.113-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[35] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 64d8b44d-9ee6-4c1d-95d1-81e4fb0810dd
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/64.176.42.125-10001
+      headers:
+        Host: nzr.biz.id
+  - name: "[36] JP - GLOBAL CONNECTIVITY SOLUTIONS LLP [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 22c28cab-cc08-4c37-af54-2a767979bf06
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/147.45.49.11-8443
+      headers:
+        Host: nzr.biz.id
+  - name: "[37] JP - WorkTitans B.V. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 74598a4c-c0e4-4268-b1af-2df8df51afc0
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/91.194.160.45-2053
+      headers:
+        Host: nzr.biz.id
+  - name: "[38] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 8309cb47-350e-465b-b456-7b22bb864302
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.69.192.40-57005
+      headers:
+        Host: nzr.biz.id
+  - name: "[39] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 4422d9b7-cc5c-4570-96bc-4305e58e758c
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/168.138.46.67-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[40] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: dd6bae4c-5ed3-40c8-ab65-cecf1ac99b6d
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/138.2.39.24-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[41] JP - The Constant Company [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 3adc2bb4-bc58-4622-a3a2-de77a0bc8c45
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/64.176.42.125-10008
+      headers:
+        Host: nzr.biz.id
+  - name: "[42] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: e5fdb3ae-5024-44e7-a2fc-0be966894cfb
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/140.238.50.134-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[43] JP - SAKURA Internet Inc. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: db641c3c-b1e2-4906-89c9-0cd4361324b2
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/49.212.133.94-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[44] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: b94e8d7f-580b-4c41-bbfc-c1a610d87138
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/168.138.46.115-43138
+      headers:
+        Host: nzr.biz.id
+  - name: "[45] JP - Contabo GmbH [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 6518ffd2-1945-4418-8417-ccc7c0d520c1
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/109.123.231.212-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[46] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 47ca20e1-55c0-4220-93b5-46f3f9e9fb70
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/168.138.198.7-27560
+      headers:
+        Host: nzr.biz.id
+  - name: "[47] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: b67e69d2-5f5e-4f2b-baf7-939a21aa2f7c
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/168.138.213.1-50003
+      headers:
+        Host: nzr.biz.id
+  - name: "[48] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: fb1d4477-3107-49b8-8bf8-d465e993bf52
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/141.147.144.15-13357
+      headers:
+        Host: nzr.biz.id
+  - name: "[49] JP - oneprovider.com - Tokyo Infrastructure [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: b504db0f-f4da-407f-a868-4359be76d06c
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/103.106.228.126-2053
+      headers:
+        Host: nzr.biz.id
+  - name: "[50] JP - Alibaba Cloud (Singapore) Private Limited [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 2d22c712-3ff4-42a0-8406-ff96913b1d65
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/8.216.121.234-51922
+      headers:
+        Host: nzr.biz.id
+  - name: "[51] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: fdf02529-d59d-4104-affe-27d9dda0b86a
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.70.101.24-16038
+      headers:
+        Host: nzr.biz.id
+  - name: "[52] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: a3396869-21ff-48a5-9b82-51251ecfe22c
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/138.2.10.149-45638
+      headers:
+        Host: nzr.biz.id
+  - name: "[53] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: a6557fbf-5e86-45b2-b48a-21c4bd804920
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.70.101.24-16666
+      headers:
+        Host: nzr.biz.id
+  - name: "[54] JP - ARTERIA Networks Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 5abf0233-5273-4f48-8ac8-a9b0ff30a729
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/113.37.149.36-12553
+      headers:
+        Host: nzr.biz.id
+  - name: "[55] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: f22b3b76-77c8-4fee-9903-1a3d2b62a809
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.70.101.24-16037
+      headers:
+        Host: nzr.biz.id
+  - name: "[56] JP - 3nt solutions LLP [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 773806ec-9987-4ac4-9727-0692228609af
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/176.97.70.119-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[57] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: d183e4e0-c9c6-4053-92a8-98275a4084f3
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.70.101.24-16028
+      headers:
+        Host: nzr.biz.id
+  - name: "[58] JP - Akamai Connected Cloud / Linode [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 261b30fc-3e01-4db2-9f88-e41a91ee7a2f
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/172.105.199.137-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[59] JP - GLOBAL CONNECTIVITY SOLUTIONS LLP [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 3ff0b62a-f888-4a8b-9a60-ced5423114a0
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/147.45.49.193-2053
+      headers:
+        Host: nzr.biz.id
+  - name: "[60] JP - Alibaba Cloud LLC [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 0ff2d234-1bb9-4ed5-a3a3-39736112c5c6
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/47.79.35.191-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[61] JP - 3nt solutions LLP [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: d6ca3ecd-129c-492c-945c-aee79098c87b
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/176.97.70.166-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[62] JP - CLARA ONLINE [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 3ff1f0ee-61eb-4bf8-9a14-d391cba1b74e
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/202.55.27.166-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[63] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: ce3c090d-6cec-4ac2-9291-253278217888
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.70.101.24-16004
+      headers:
+        Host: nzr.biz.id
+  - name: "[64] JP - Akari Networks (Tokyo) [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 0b8bdd27-4167-4978-952c-ac1a6e2a985d
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/5.226.50.109-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[65] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: dbacf124-57d2-4d51-9d80-f1ccab4afe45
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.69.199.70-8443
+      headers:
+        Host: nzr.biz.id
+  - name: "[66] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: edfcf3ec-c4a4-44c7-a2c4-f8250f5589f4
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/138.2.32.76-15821
+      headers:
+        Host: nzr.biz.id
+  - name: "[67] JP - 3nt solutions LLP [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: c17cdeef-e7ac-4a8a-b40c-7f0e3c12474c
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/176.97.70.121-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[68] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: a2071d38-dcf2-4ed2-b85c-b52a939904b0
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/138.2.10.217-27446
+      headers:
+        Host: nzr.biz.id
+  - name: "[69] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 6431f88b-54ad-41bb-a7a7-4d428211a3a2
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.70.101.24-16077
+      headers:
+        Host: nzr.biz.id
+  - name: "[70] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 1c84d405-7895-4f00-98be-58a441b216c6
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.70.101.24-16096
+      headers:
+        Host: nzr.biz.id
+  - name: "[71] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 4e962048-960f-4875-be32-41bd4603fd8b
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.70.101.24-16401
+      headers:
+        Host: nzr.biz.id
+  - name: "[72] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 6d6cd4f9-2580-450c-a1d0-24ecdb77b621
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.70.101.24-16056
+      headers:
+        Host: nzr.biz.id
+  - name: "[73] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: a8188d7c-cfe1-44d1-8822-4791f63b0f1d
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.70.101.24-16007
+      headers:
+        Host: nzr.biz.id
+  - name: "[74] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 7b79ce4a-7827-4282-aa30-e228ecc61119
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/132.145.126.40-32498
+      headers:
+        Host: nzr.biz.id
+  - name: "[75] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 5665ca04-3fc9-4c29-a46f-a1af693afbe5
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.70.101.24-16054
+      headers:
+        Host: nzr.biz.id
+  - name: "[76] JP - 6 COLLYER QUAY [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: f983c337-bf13-481a-985f-1afa74ce2eae
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/43.133.10.236-33405
+      headers:
+        Host: nzr.biz.id
+  - name: "[77] JP - Shiodome Sumitomo Blog 1-9-2 TOKYO [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 3436cfb3-16a0-425f-a7c1-c91567e23146
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/8.209.220.50-21273
+      headers:
+        Host: nzr.biz.id
+  - name: "[78] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: ad636c19-84c4-4406-b13b-a0baf161b720
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.70.101.24-16404
+      headers:
+        Host: nzr.biz.id
+  - name: "[79] JP - Oracle Svenska AB [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 5d0bf9eb-03de-4a5b-9edc-8bbee5ea339d
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/217.142.236.93-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[80] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 6a2c1f04-d3b8-499c-b653-e6b99b60feb6
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/138.2.18.82-8880
+      headers:
+        Host: nzr.biz.id
+  - name: "[81] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: cae78afc-0ad6-4c05-abd8-02e379f2021f
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/141.147.147.180-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[82] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: f1854327-c00c-4d6c-b682-f3cc3e5fdf58
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/132.226.8.109-43257
+      headers:
+        Host: nzr.biz.id
+  - name: "[83] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 0013f8e0-a1cb-40a5-a986-782ecdaa6e2a
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.70.101.24-16030
+      headers:
+        Host: nzr.biz.id
+  - name: "[84] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: bbc03514-5971-4ed2-8d0d-ab9d508ef9eb
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.70.101.24-16055
+      headers:
+        Host: nzr.biz.id
+  - name: "[85] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: ef5a7d23-f174-42a5-891d-9b1e093f34de
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/132.145.115.62-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[86] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: eb97572e-f015-4f40-a990-5821f2ad7cdd
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.70.101.24-16050
+      headers:
+        Host: nzr.biz.id
+  - name: "[87] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: ab5c5c4f-1653-47a3-85d2-e9ed9140d7ab
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.70.101.24-16993
+      headers:
+        Host: nzr.biz.id
+  - name: "[88] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 25aa93ba-d193-4c59-8dd8-6cdda3626bdd
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.70.101.24-16059
+      headers:
+        Host: nzr.biz.id
+  - name: "[89] JP - 3nt solutions LLP [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 31974066-6c8b-4694-82db-8e7573bc3548
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/176.97.70.154-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[90] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 8e4e8ad1-d420-4549-84a2-6ee837974b05
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.70.101.24-16031
+      headers:
+        Host: nzr.biz.id
+  - name: "[91] JP - IDC Frontier Inc. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: ad1e5800-ca97-4ff2-ae5e-01943844ccbc
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/203.137.166.120-50090
+      headers:
+        Host: nzr.biz.id
+  - name: "[92] JP - xTom [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: cd3f1b75-cff5-4036-9b1f-a6880410bde1
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/185.184.223.85-8443
+      headers:
+        Host: nzr.biz.id
+  - name: "[93] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: b7f805ea-f531-4fca-991a-06288680b707
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/141.147.185.15-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[94] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 90711151-9d0b-4db6-a149-c7874c4e3df5
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/45.32.49.72-9443
+      headers:
+        Host: nzr.biz.id
+  - name: "[95] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 2760bebd-10d9-4686-958d-1946f86bd5d6
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/132.145.127.203-8443
+      headers:
+        Host: nzr.biz.id
+  - name: "[96] JP - GLOBAL CONNECTIVITY SOLUTIONS LLP [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: be51a1ed-e8cf-489e-a023-68bfa82fe7f4
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/147.45.49.164-24443
+      headers:
+        Host: nzr.biz.id
+  - name: "[97] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: dff52f59-b9d9-4a12-bafb-842dd0e116aa
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/149.28.18.161-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[98] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 0f95fb45-a8ac-4148-ada3-da2689c46ed5
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/138.2.48.109-26412
+      headers:
+        Host: nzr.biz.id
+  - name: "[99] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: dd555961-a732-45a3-a501-2b67f1e11b74
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/45.63.123.176-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[100] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: af778f06-02cb-41dc-a30b-0753f92765ab
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/45.32.55.253-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[101] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: e8f69e57-59e3-4942-b27f-6a0291b3edcf
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/207.148.113.196-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[102] JP - Guangzhou LinSeek Network Technology Co.Ltd [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: bc41d502-3bc1-4d40-8826-68096ee1bcab
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/103.42.107.254-8443
+      headers:
+        Host: nzr.biz.id
+  - name: "[103] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 7121931b-6747-471f-b52f-dbbd177b3f13
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/45.77.178.190-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[104] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 2ce23196-4fdf-4c02-ba7e-9f4131f98945
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/202.182.122.164-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[105] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: bb1e5315-2f9f-4a69-87f9-472bcc012ebf
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/45.76.111.190-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[106] JP - 3nt solutions LLP [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 79169418-0ca6-492e-aa66-39fd2a37dbea
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/176.97.70.51-2053
+      headers:
+        Host: nzr.biz.id
+  - name: "[107] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: cd502fb4-c657-4bb8-b85d-dbded4a40665
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/167.179.110.68-8443
+      headers:
+        Host: nzr.biz.id
+  - name: "[108] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: e4997108-a76e-4942-9401-7996129beb77
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/141.147.168.141-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[109] JP - Akamai Connected Cloud / Linode [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 4429b6a6-0404-488a-9cda-0e63b854b22e
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/172.105.226.139-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[110] JP - AKILE LTD [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 333f3149-a6dd-4567-9f85-bafda1ea2e0c
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/82.163.16.69-8080
+      headers:
+        Host: nzr.biz.id
+  - name: "[111] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 4c0c977b-71e5-4ff3-8921-cca5f53df8fa
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/45.32.252.168-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[112] JP - Oracle Network Information Services [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: cb474076-377d-40ec-a0f3-5e0a55d0143a
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/138.3.222.124-46209
+      headers:
+        Host: nzr.biz.id
+  - name: "[113] JP - Alibaba Cloud LLC [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: aa36bdfe-8e50-4f8c-bc13-6f322d3bb50c
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/47.79.38.17-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[114] JP - Akamai Connected Cloud / Linode [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 648e9554-83b0-4469-a1e1-e0073a870768
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/172.104.116.214-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[115] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 81adfe2e-2173-48ef-9467-737032956483
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/141.147.185.63-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[116] JP - DMIT Cloud Service - Tokyo [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: a6f0691c-ab31-4667-b36b-67e8c6385894
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/154.31.113.72-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[117] JP - AKILE LTD [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: e2665a08-ef70-4243-9298-88e0c6068825
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/193.246.161.65-54310
+      headers:
+        Host: nzr.biz.id
+  - name: "[118] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: f7da3425-c7ec-45f5-a206-8986ca353772
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/158.101.71.226-8443
+      headers:
+        Host: nzr.biz.id
+  - name: "[119] JP - AKILE LTD [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 12160861-1665-49cc-b74a-109d24fc6fa2
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/82.163.16.229-26803
+      headers:
+        Host: nzr.biz.id
+  - name: "[120] JP - 3NT SOLUTIONS LLP [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: b05401d4-235f-4dc1-94c7-52c9c1f29ae2
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/38.180.28.163-2053
+      headers:
+        Host: nzr.biz.id
+  - name: "[121] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 160a13a8-215c-4bbb-9e71-aeb608c6d8f5
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/45.76.193.107-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[122] JP - Amazon Data Services Japan [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: cec13ccf-f4ef-4bf6-917b-2999dda164da
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/18.183.158.211-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[123] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 4ac00ebf-c56c-4e84-9b34-181672c16999
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/167.179.86.6-8443
+      headers:
+        Host: nzr.biz.id
+  - name: "[124] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: ac17b736-2404-4eea-be1e-50eb64023520
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/45.76.52.128-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[125] JP - Alibaba Cloud LLC [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: f9745275-f946-4e9e-ae33-3d98c081e41f
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/47.79.43.222-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[126] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 018308d1-c558-470e-8960-adf315d956eb
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/149.28.21.106-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[127] JP - TYO_VULTR_CUST [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 7702e7c8-fb69-4b0e-a42d-8f05f7469e92
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/207.148.105.247-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[128] JP - Akile LTD [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 790c687b-94f1-4611-84dc-5f8e5f4ade0e
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/156.231.117.209-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[129] JP - Akamai Connected Cloud / Linode [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: d7ff8af3-981d-4686-a8bc-41707f09ff37
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/139.162.102.152-7002
+      headers:
+        Host: nzr.biz.id
+  - name: "[130] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 6ef2c045-c23d-4a60-b896-8d26f146995e
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/141.147.159.250-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[131] JP - ARTERIA Networks Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 06c019d6-bd44-412e-a6de-1217b24fda5d
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/118.21.134.114-12553
+      headers:
+        Host: nzr.biz.id
+  - name: "[132] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 630bfcfb-a369-4c0d-9adc-ffda70af16de
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/108.160.141.198-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[133] JP - xTom Japan Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 89a6dccb-bf79-412d-a241-06a4f0294a40
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/141.98.197.101-11665
+      headers:
+        Host: nzr.biz.id
+  - name: "[134] JP - Akamai Connected Cloud / Linode [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 48d35419-7286-4b50-8aaa-3dca17d37c57
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/139.162.108.5-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[135] JP - 3NT SOLUTIONS LLP [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 21a9749a-7286-4ac1-a83e-a2a1f0e32e91
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/38.180.29.40-2053
+      headers:
+        Host: nzr.biz.id
+  - name: "[136] JP - Jurgita Jurgaitiene trading as LOCOTORPI [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: b5a44e4a-d5f8-4230-8bfa-413dedaafd82
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/185.18.222.208-2053
+      headers:
+        Host: nzr.biz.id
+  - name: "[137] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: d3c7f756-f6c5-4dd5-905f-964f0a13077f
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/104.238.151.229-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[138] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 66100136-53a6-4c06-ab20-0ebfc1c1c857
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/108.160.139.154-8443
+      headers:
+        Host: nzr.biz.id
+  - name: "[139] JP - Japan Internet Xing Co. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 17f1d282-f969-43f7-8999-296819f37807
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/27.83.68.142-8443
+      headers:
+        Host: nzr.biz.id
+  - name: "[140] JP - Akamai Connected Cloud / Linode [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 05a1d2cc-c15b-470a-a3f5-ecf73dac558f
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/139.162.84.132-18836
+      headers:
+        Host: nzr.biz.id
+  - name: "[141] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 2b345146-c301-4500-8cfe-06300dabd00e
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/108.61.126.17-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[142] JP - The Constant Company [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 5d0242a8-4ef8-4908-9834-92db5726e431
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/167.179.116.28-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[143] JP - Private Customer [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 470bdb9a-d8a9-4a47-97f7-2beafafb41e3
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/154.31.114.136-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[144] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: fe0c6881-5773-48d2-b05b-5ae57a4b8e55
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/45.77.176.87-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[145] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 1934f4e2-e5a3-4025-9eeb-b4d9e3314207
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/158.101.80.84-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[146] JP - Jupiter Telecommunications Co. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 4de216c1-85ce-43ad-9528-cc96b320ddb2
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/219.117.2.190-57517
+      headers:
+        Host: nzr.biz.id
+  - name: "[147] JP - Amazon Data Services Japan [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: eb722f6b-78b8-4365-b5e0-8e3c04cb4c10
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/52.194.236.221-8443
+      headers:
+        Host: nzr.biz.id
+  - name: "[148] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: b9381ffe-8276-4fae-98f5-90395584869b
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/140.238.37.103-14782
+      headers:
+        Host: nzr.biz.id
+  - name: "[149] JP - NPO G-net [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: fc36f5f3-d802-468e-9fc9-c456dae51be8
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/206.237.120.143-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[150] JP - Amazon Data Services Japan [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 2999bde0-c28b-418b-9182-91bb72b30e3a
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/35.78.229.176-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[151] JP - GMO Internet [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 64aa8094-ddc2-437f-9b9e-06980bbfbdfd
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/118.27.12.40-38443
+      headers:
+        Host: nzr.biz.id
+  - name: "[152] JP - The Constant Company [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: cf81865a-498d-41d6-bfd0-fb4e607c01dd
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/64.176.36.17-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[153] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 49d5ad33-9674-4f34-a248-e0556cd9a345
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/64.110.101.31-8443
+      headers:
+        Host: nzr.biz.id
+  - name: "[154] JP - Microsoft Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 05231fbc-2688-46ec-880e-4b00eb90e04a
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/20.78.59.52-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[155] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 6eeacabd-9f33-4560-b20b-14a022b26896
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/141.147.162.24-1235
+      headers:
+        Host: nzr.biz.id
+  - name: "[156] JP - Alibaba Cloud LLC [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 1cbe16c1-3225-486f-abc4-2654416d172d
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/47.79.90.37-49153
+      headers:
+        Host: nzr.biz.id
+  - name: "[157] JP - The Constant Company [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: ef9a6265-362f-47e3-b37b-3bc246958e97
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/64.176.55.11-29999
+      headers:
+        Host: nzr.biz.id
+  - name: "[158] JP - Alibaba Cloud (Singapore) Private Limited [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 057d4939-5799-40fe-a71e-a86c13220a68
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/47.79.42.197-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[159] JP - Jupiter Telecommunications Co. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 396fb4dd-c250-4a4e-9ec6-ce0e909af89c
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/219.117.2.190-48401
+      headers:
+        Host: nzr.biz.id
+  - name: "[160] JP - imported inetnum object for OCPL-1 [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 33b04c03-ad25-406f-a0e7-b88054125fc2
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/140.83.60.81-18443
+      headers:
+        Host: nzr.biz.id
+  - name: "[161] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 0da665be-eb7a-456d-94be-8c13ecb05df6
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/132.145.116.185-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[162] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: a4e1ca64-c98e-4c89-911d-30eb811e86a7
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/158.101.154.245-47001
+      headers:
+        Host: nzr.biz.id
+  - name: "[163] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 8cc681bd-182d-492f-84f8-fb1cb11790f5
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/168.138.193.174-11959
+      headers:
+        Host: nzr.biz.id
+  - name: "[164] JP - CEGRGO-DigitalVM LLC - Tokyo [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 5b060f88-737a-4edc-b0cc-2f343e81e80c
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/45.11.1.118-44004
+      headers:
+        Host: nzr.biz.id
+  - name: "[165] JP - Alibaba Cloud - JP [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: f81881c3-c9ae-475b-bffa-371d6a16b420
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/47.74.8.30-2443
+      headers:
+        Host: nzr.biz.id
+  - name: "[166] JP - WorkTitans B.V. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 1700b881-9c97-4e4a-9d78-24a1b4d70bbc
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/103.106.0.123-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[167] JP - Amazon Data Services Japan [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 5447c8af-bf8b-4eb2-8a05-1e8b25093296
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/3.112.21.102-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[168] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 416e42eb-3222-492b-bb7c-a0fe2435776e
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/155.248.184.178-30011
+      headers:
+        Host: nzr.biz.id
+  - name: "[169] JP - Akamai Connected Cloud / Linode [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 62024501-c21f-479e-b82a-28264a8e3546
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/172.105.199.184-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[170] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: d2f53874-e9dc-4849-b4a6-9a6bd3642358
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/158.101.152.6-2919
+      headers:
+        Host: nzr.biz.id
+  - name: "[171] JP - imported inetnum object for OCPL-1 [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 2510a1e3-cf61-44d7-a560-3edf0f1dd5af
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/140.83.57.114-25965
+      headers:
+        Host: nzr.biz.id
+  - name: "[172] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: b113cdab-493b-4a80-9cc5-893a02b0539e
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/132.145.127.203-2053
+      headers:
+        Host: nzr.biz.id
+  - name: "[173] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: ab255f50-ffb1-4f6f-8f5c-ad7510e80b57
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/158.101.76.55-21953
+      headers:
+        Host: nzr.biz.id
+  - name: "[174] JP - imported inetnum object for OCPL-1 [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 0b1068e7-9916-4a97-b83f-ca93cba185e3
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/140.83.59.158-15805
+      headers:
+        Host: nzr.biz.id
+  - name: "[175] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 6cfb1778-8517-44c1-a21d-b9679a0698b6
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.70.82.101-18650
+      headers:
+        Host: nzr.biz.id
+  - name: "[176] JP - IT7 Networks Inc [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 014fb972-dbb8-4106-8072-1a9892604c8a
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/23.106.140.129-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[177] JP - imported inetnum object for OCPL-1 [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 95ecfbd6-008b-4418-9c8d-ed46448c674f
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/140.83.57.20-13118
+      headers:
+        Host: nzr.biz.id
+  - name: "[178] JP - imported inetnum object for OCPL-1 [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 21615b7f-fcc6-41ed-ac30-b8e2998399a7
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/140.83.57.183-22735
+      headers:
+        Host: nzr.biz.id
+  - name: "[179] JP - Amazon Data Services Osaka [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 5b21a96e-68eb-4169-9b08-5ff1344f3f7c
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/15.168.175.167-2087
+      headers:
+        Host: nzr.biz.id
+  - name: "[180] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 277325a2-2cc2-4209-afad-7dc852610782
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/198.13.42.58-32954
+      headers:
+        Host: nzr.biz.id
+  - name: "[181] JP - Cluster Logic Inc [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: ec88a15d-2fdc-44ab-90f2-7dafa2da2099
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/178.157.56.26-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[182] JP - Akamai Connected Cloud / Linode [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 8308d7b1-f0a9-41da-8b25-548cddd73633
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/172.104.116.38-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[183] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 58e5901e-8d58-45f2-aae1-4d344c9eeed9
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/140.83.83.65-9872
+      headers:
+        Host: nzr.biz.id
+  - name: "[184] JP - 16 COLLYER QUAY # 18-29 INCOME AT RAFFLES [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 43b2332a-32d1-4390-b85b-67769fd68690
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/43.165.183.43-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[185] JP - Nearoute Limited [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 524e6120-fb48-4b50-89eb-e7f55173b7b3
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/38.207.137.217-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[186] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: fb99cb2d-d8fe-4f80-bbad-1bfe322244f7
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/202.182.116.249-8443
+      headers:
+        Host: nzr.biz.id
+  - name: "[187] JP - DDPS Networks [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: b05c89d0-d800-4b36-ab0b-a93e594e6b63
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/158.51.111.105-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[188] JP - Oracle Svenska AB [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: dd87c359-fae2-4386-85ee-c0f9058c75d0
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/217.142.226.168-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[189] JP - imported inetnum object for OCPL-1 [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: ea676c6d-1524-475d-89fb-6ca728c8b999
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/140.83.57.86-54322
+      headers:
+        Host: nzr.biz.id
+  - name: "[190] JP - SAKURA Internet Inc. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 92a5dbb5-277c-4d38-8e9d-40dd95bad15a
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/153.121.45.101-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[191] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: aa0eba5a-324c-4712-852c-0ff10ecf30e3
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/150.230.204.21-10243
+      headers:
+        Host: nzr.biz.id
+  - name: "[192] JP - imported inetnum object for OCPL-1 [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 42ba98b4-89e2-4660-b574-428326af5b80
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/140.83.56.110-56417
+      headers:
+        Host: nzr.biz.id
+  - name: "[193] JP - Cloudflare London [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 25ec5846-92e5-4842-9483-7a8f1abaaffd
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/138.2.5.136-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[194] JP - 16 COLLYER QUAY # 18-29 INCOME AT RAFFLES [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: a498dc9b-10cb-4b11-9f8b-6cd184aa336b
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/43.153.155.49-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[195] JP - VPSServer.com /24 block for Tokyo location [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 5c2fe385-f39e-470e-a354-765b0a0a35f0
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/103.125.216.22-8443
+      headers:
+        Host: nzr.biz.id
+  - name: "[196] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: bea225ae-d051-4224-adb9-4e22472be096
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/150.230.214.172-16957
+      headers:
+        Host: nzr.biz.id
+  - name: "[197] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 142b4f6c-e8e4-4bc3-87fd-9d20bc1bf424
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/141.147.183.49-29876
+      headers:
+        Host: nzr.biz.id
+  - name: "[198] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 678985c3-f28c-4f49-b40f-a5a8e05aa1da
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/140.238.62.82-1443
+      headers:
+        Host: nzr.biz.id
+  - name: "[199] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: f75d2941-7369-4e7c-a958-eaaf7b497a37
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/158.101.89.113-50443
+      headers:
+        Host: nzr.biz.id
+  - name: "[200] JP - IPX [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 0b99db27-0845-4e43-b166-42b34d2f9b17
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/103.238.129.215-42734
+      headers:
+        Host: nzr.biz.id
+  - name: "[201] JP - Server Hosting Service(NTTPCCommunications [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 75232b57-618f-4a4a-b554-df85614153e7
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/210.231.178.90-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[202] JP - Amazon Data Services Japan [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 45b839d6-2875-45b5-9cfc-cc5518ca264b
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/18.177.83.181-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[203] JP - Alibaba Cloud (Singapore) Private Limited [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: a54b0e97-dad3-4469-9f98-13109316e29e
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/47.79.34.117-10036
+      headers:
+        Host: nzr.biz.id
+  - name: "[204] JP - Securebit AG [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 96fc05e5-5396-4df3-964c-afce5a34091f
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/109.61.109.42-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[205] JP - ByteVirt LLC [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 2161c6ad-e831-415a-bb2b-01bae7a45a6d
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/147.79.20.239-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[206] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 2fcbed92-9f17-44ae-a0c3-99c7076846df
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/168.138.197.147-12345
+      headers:
+        Host: nzr.biz.id
+  - name: "[207] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: b6752687-165e-408e-a4c9-c2bf7fc68bf2
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/158.101.131.94-2083
+      headers:
+        Host: nzr.biz.id
+  - name: "[208] JP - Contabo GmbH [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 76f66bd5-486b-4b0f-883f-416562d50305
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/84.247.152.46-10045
+      headers:
+        Host: nzr.biz.id
+  - name: "[209] JP - Vultr Holdings [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 3684ef23-9aa5-4dc4-bc97-cb78494e8e56
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/45.76.192.129-24434
+      headers:
+        Host: nzr.biz.id
+  - name: "[210] JP - OPTAGE Inc. [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: f4f54d94-b29e-4762-96a5-a0cb481c32df
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/121.85.55.59-19842
+      headers:
+        Host: nzr.biz.id
+  - name: "[211] JP - imported inetnum object for OCPL-1 [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 0b8dfcd9-3cf5-4db6-8ac7-9ad641efed67
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/140.83.37.134-46478
+      headers:
+        Host: nzr.biz.id
+  - name: "[212] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 27202434-416f-4297-8cad-6e0903b15fb1
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/193.123.161.116-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[213] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 5f122abe-5b0a-4a69-b2a3-e047263228bc
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/152.70.97.53-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[214] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: c9cead2c-c632-468c-9556-76acc6c97fbe
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/168.138.192.16-54584
+      headers:
+        Host: nzr.biz.id
+  - name: "[215] JP - Cloudflare [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 56e46eec-2f73-44fa-8966-d8a484b5f846
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/138.2.16.61-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[216] JP - High Sierra Networks [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: a527a7d5-8a6a-428c-8711-e1881d5b22ca
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/208.75.133.227-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[217] JP - Oracle Corporation [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: fd5097ad-2139-4c92-a8ce-e8fe6755bf1a
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/150.230.59.15-8443
+      headers:
+        Host: nzr.biz.id
+  - name: "[218] JP - Oracle Public Cloud [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 3bbe86e9-7ae0-4f66-951b-8b97ea204e14
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/168.138.201.35-36637
+      headers:
+        Host: nzr.biz.id
+  - name: "[219] JP - Azumino Network Community TV [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 782c4acb-d5bc-42f1-9d06-df775b55a193
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/202.84.53.85-19999
+      headers:
+        Host: nzr.biz.id
+  - name: "[220] JP - Amazon Data Services Japan [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: cfeae4e5-4bb1-4737-b217-9d53cc220f1c
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/13.230.34.30-443
+      headers:
+        Host: nzr.biz.id
+  - name: "[221] JP - Alibaba Cloud (Singapore) Private Limited [VLESS]"
+    type: vless
+    server: nzr.biz.id
+    port: 443
+    uuid: 609b5eea-d936-43cc-aafe-e0490dabe321
+    network: ws
+    tls: true
+    servername: nzr.biz.id
+    skip-cert-verify: false
+    ws-opts:
+      path: /nzr/8.209.4.205-443
+      headers:
+        Host: nzr.biz.id
